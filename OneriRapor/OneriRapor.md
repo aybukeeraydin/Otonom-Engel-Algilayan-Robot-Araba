@@ -16,38 +16,42 @@ kullanarak çevresini algılar ve uygun manevraları gerçekleştirerek yoluna d
 ✅ 1 metre mesafedeki engellere tepki süresinin 1 saniyenin altında olması  
 ✅ Robotun en az 30 dakika boyunca kesintisiz çalışabilmesi  
 
-## ⏳ 3. Tahmini Zaman Çizelgesi  
+## ⏳ 3. Tahmini Zaman Çizelgesi
+| **Görev**                                        | **Tahmini Süre**  |
+|--------------------------------------------------|-------------------|
+| **Proje Planlaması ve Araştırma**                | 1 hafta           |
+| **Arduino ve Sensörlerin Kurulumu**              | 1 hafta           |
+| **Yazılım Geliştirme ve Engel Algılama Algoritması** | 2 hafta           |
+| **Donanım Montajı ve Testler**                   | 2 hafta           |
+| **Yazılım ve Donanım Entegrasyonu**              | 2 hafta           |
+| **Test ve Hata Ayıklama**                        | 1 hafta           |
+| **Son Testler ve Optimizasyon**                  | 1 hafta           |
+| **Proje Sonuçları ve Rapor Hazırlama**           | 1 hafta           |
+| **Toplam Süre**                                  | 9 hafta           |
 
-Proje Planlama ve Araştırma: 10 gün
-Devre Şeması ve Bileşen Seçimi: 7 gün
-Donanım Montajı: 8 gün
-Arduino Kodlaması: 15 gün
-Testler ve Hata Giderme: 10 gün
-Nihai Testler ve Optimizasyon: 5 gün
-Rapor ve Dökümantasyon: 5 gün
-**Toplam Süre: 60 Gün**
+---
 
 ## 🛠️ 4. Kaynak Planlaması  
 
 ## 📌 Proje Ekibi ve Görev Dağılımı  
 
-### Aybüke Eraydın – *Kodlama*  
+- **Sevgi Nur Öksüz :**
+- Arduino kodlarını yazma   
+- Sensörlerden gelen verileri işleme  
+- Kabloların düzenli yerleştirilmesini sağlama 
+- **Buse Yıldız :**
 - Arduino kodlarını yazma  
-- Motor sürücü ve kontrol mekanizmalarını kodlama  
-
-### Busenur Yıldız – *Donanım Montajı & Devre Tasarımı*  
 - Sensör ve motorların Arduino'ya bağlantısını yapma  
 - Devre şemasını oluşturma ve test etme  
 - Enerji yönetimi ve pil bağlantılarını sağlama  
-
-### Sevgi Nur Öksüz – *Sensör Entegrasyonu*  
-- Sensörlerden gelen verileri işleme  
-- Kabloların düzenli yerleştirilmesini sağlama  
-
-### Onur Kerem – *Test & Optimizasyon*  
+- **Aybüke Eraydın:**
+- Arduino kodlarını yazma  
+- Motor sürücü ve kontrol mekanizmalarını kodlama
+- **Onur Kerem :**
+- Arduino kodlarını yazma   
 - Robotun hareketlerini test etme  
 - Engelleri algılama hassasiyetini ayarlama  
-- Hata tespiti ve optimizasyon önerileri geliştirme
+- Hata tespiti ve optimizasyon önerileri geliştirme
 
 **Kullanılacak Ekipmanlar:**  
 - **Arduino Uno**  
@@ -63,9 +67,16 @@ Rapor ve Dökümantasyon: 5 gün
 - **Tinkercad veya Proteus (Devre Simülasyonu için, opsiyonel)**  
 
 **Tahmini Maliyet:**  
-- Elektronik bileşenler: **500 - 1000₺**  
-- Robot şasisi ve motorlar: **300 - 600₺**  
-- Toplam tahmini maliyet: **800 - 1600₺**  
+| Malzeme                        | Birim Fiyat (₺) | Adet  | 
+|--------------------------------|---------------|------|
+| Arduino Uno                    | 500           | 1    | 
+| HC-SR04 Ultrasonik Sensör      | 100           | 1    | 
+| L298N Motor Sürücü             | 150           | 1    | 
+| DC Motorlar ve Tekerlek Seti   | 400           | 2    | 
+| 6'lı AA Pil Yuvası ve Piller   | 200           | 1    |
+| Şasi (Robot Gövdesi)           | 350           | 1    | 
+| Jumper Kabloları               | 50            | 1 Set |
+| **Toplam Tahmini Maliyet:**    | **1.750₺**   |      | 
 
 ## ⚠️ 5. Risk Analizi  
 
