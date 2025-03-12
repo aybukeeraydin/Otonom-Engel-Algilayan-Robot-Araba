@@ -1,32 +1,33 @@
-# Otonom-Engel-Algilayan-Robot-Araba
-Engelden Kaçan Robot Araba
-Bu proje, Arduino Uno ve HC-SR04 Ultrasonik Sensör kullanarak engelleri algılayan ve yön değiştiren bir robot araba geliştirmeyi amaçlamaktadır. Robot, mesafe sensörü ile önündeki engelleri algılayarak uygun bir manevra gerçekleştirir.
+#Otonom Engel Algılayan Robot Araba
+## 📌 Proje Konusu
+Bu proje, çevresindeki engelleri algılayarak yönünü otomatik olarak değiştiren otonom bir robot geliştirmeyi amaçlamaktadır. Sensörler yardımıyla çevresini analiz eden robot, engellere çarpmadan hareket edebilir.  
 
-## 🔧 Proje Açıklaması
-Robot, HC-SR04 Ultrasonik Sensör yardımıyla çevresindeki nesnelerin mesafesini ölçer. Eğer bir engel belirlenen mesafeden daha yakınsa, robot geri hareket eder ve engelden kaçmak için sağa döner. Engel yoksa, düz ileri hareket etmeye devam eder.
+## 📖 Proje Kısa Özeti
+Engelden kaçan robot, mesafe sensörleri kullanarak önündeki nesneleri tespit eder ve uygun bir manevra yaparak yoluna devam eder. Robotik, gömülü sistemler ve yapay zeka alanlarında temel kavramları içeren bir projedir.  
 
-## Projenin temel bileşenleri:
+## 🔧 Proje Gereksinimleri
+Projeyi çalıştırmak için aşağıdaki bileşenler gereklidir:  
+- **Arduino Uno** 
+- **HC-SR04 Ultrasonik Mesafe Sensörü** (Engelleri algılamak için)  
+- **L298N Voltaj Regulatörlü Çift Motor Sürücü Kartı**  
+- **Çok Amaçlı Robot Platformu**    
+- **Li-Po pil**
+- **6’lı AA Pil Yuvası**
+- **Jumper**
 
-Arduino Uno: Mikrodenetleyici kartı
-HC-SR04 Ultrasonik Mesafe Sensörü: Engelleri algılar
-L298N Motor Sürücü Kartı: DC motorları kontrol eder
-DC Motorlar ve Tekerlekler: Robotun hareketini sağlar
-Pil ve Pil Yuvası: Güç kaynağı
-Bu sistem, engellerden kaçan basit bir otonom robot için temel bir algoritma kullanmaktadır.
+Ek olarak, kodu yüklemek için **Arduino IDE** kullanılmalıdır.  
 
-## 🛠 Kullanılan Malzemeler
-Malzeme	Açıklama
-Arduino Uno	: Mikrodenetleyici kartı
-HC-SR04 Ultrasonik Sensör :	Robotun önündeki engelleri algılar
-L298N Motor Sürücü Kartı :	DC motorların hızını ve yönünü kontrol eder
-DC Motorlar (x2) :	Robotun tekerleklerini döndürür
-Robot Platformu	Şasi ve tekerleklerin montajı için kullanılır
-6'lı AA Pil Yuvası :	Arduino ve motorlar için güç sağlar
-Alkalin veya Li-Po Pil	: Robotun çalışması için enerji kaynağı (Li-Po önerilir)
-Jumper Kabloları :	Devre bağlantıları için kullanılır
+## 🚀 Projeyi Çalıştırma
+1. **Gerekli bileşenleri bağlayın:**  
+   - HC-SR04 sensörünü Arduino'ya bağlayın.  
+   - Motor sürücü modülünü motorlara ve Arduino'ya bağlayın.  
+2. **Arduino IDE’yi yükleyin ve açın.**  
+3. **Gerekli kütüphaneleri ekleyin (varsa).**  
+4. **Proje kodlarını yükleyin.**  
+5. **Robotu çalıştırın ve engelleri nasıl aştığını gözlemleyin!**  
 
-##⚙ Çalışma Prensibi
-Ultrasonik sensör, belirli aralıklarla çevresindeki engellerin mesafesini ölçer.
-Eğer önünde bir engel algılarsa (mesafe belirli bir eşiğin altındaysa), robot geri gider ve sağa döner.
-Engel yoksa, robot doğrudan ileri hareket eder.
-Bu döngü sürekli tekrarlanarak robotun engellerden kaçması sağlanır.
+## 📜 Proje Lisans Bilgileri
+Bu proje **MIT Lisansı** altında yayınlanmıştır. Kullanabilir, değiştirebilir ve geliştirebilirsiniz!  
+
+## 🔑 Proje Anahtar Kelimeleri
+`Arduino`, `Otonom Robot`, `Engelden Kaçan Robot`, `HC-SR04`, `Motor Sürücü`, `Robotik`, `IoT`, `Arduino Projeleri`  
