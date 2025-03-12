@@ -40,11 +40,11 @@ Rapor ve Dökümantasyon: 5 gün
 - Devre şemasını oluşturma ve test etme  
 - Enerji yönetimi ve pil bağlantılarını sağlama  
 
-### 🎨 Sevgi Nur Öksüz – *Sensör Entegrasyonu*  
+### Sevgi Nur Öksüz – *Sensör Entegrasyonu*  
 - Sensörlerden gelen verileri işleme  
 - Kabloların düzenli yerleştirilmesini sağlama  
 
-### 🛠 Onur Kerem – *Test & Optimizasyon*  
+### Onur Kerem – *Test & Optimizasyon*  
 - Robotun hareketlerini test etme  
 - Engelleri algılama hassasiyetini ayarlama  
 - Hata tespiti ve optimizasyon önerileri geliştirme
