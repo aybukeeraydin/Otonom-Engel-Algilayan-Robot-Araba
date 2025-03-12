@@ -35,19 +35,19 @@ kullanarak çevresini algılar ve uygun manevraları gerçekleştirerek yoluna d
 
 ## 📌 Proje Ekibi ve Görev Dağılımı  
 
-- **Sevgi Nur Öksüz :**
+**Aybüke Eraydın:**
+- Arduino kodlarını yazma  
+- Motor sürücü ve kontrol mekanizmalarını kodlama
+**Sevgi Nur Öksüz :**
 - Arduino kodlarını yazma   
 - Sensörlerden gelen verileri işleme  
 - Kabloların düzenli yerleştirilmesini sağlama 
-- **Buse Yıldız :**
+**Buse Yıldız :**
 - Arduino kodlarını yazma  
 - Sensör ve motorların Arduino'ya bağlantısını yapma  
 - Devre şemasını oluşturma ve test etme  
 - Enerji yönetimi ve pil bağlantılarını sağlama  
-- **Aybüke Eraydın:**
-- Arduino kodlarını yazma  
-- Motor sürücü ve kontrol mekanizmalarını kodlama
-- **Onur Kerem :**
+**Onur Kerem :**
 - Arduino kodlarını yazma   
 - Robotun hareketlerini test etme  
 - Engelleri algılama hassasiyetini ayarlama  
