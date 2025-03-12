@@ -33,7 +33,7 @@ kullanarak çevresini algılar ve uygun manevraları gerçekleştirerek yoluna d
 
 ## 🛠️ 4. Kaynak Planlaması  
 
-## 📌 Proje Ekibi ve Görev Dağılımı  
+**📌 Proje Ekibi ve Görev Dağılımı**
 
 ### Aybüke Eraydın  
 - Arduino kodlarını yazma  
